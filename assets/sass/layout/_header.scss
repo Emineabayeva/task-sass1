@@ -1,10 +1,41 @@
-.header__start{
-    border: 1px solid black;
-    height: 40px;
-    
-}
 
-.header__end img{
-    margin-left:  300px;
-    margin-top: 30px;
+
+.header__start .lists ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:$text-color;
+    }
+
+    .header__start{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid black;
+       color:$backgroun-color;
+    }
+    header__start .lists ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color:$text-color;
+     }
+
+
+ .header_left .user{
+    color:$main-color;
+   padding: 15px;
+   border-radius: 50%;
+ 
+ }
+ .header__start .lists ul{
+    @extend.flex;
+     text-decoration: none;
+     list-style-type: none;
+     gap: 25px;
+     
+ }
+ .header_left{
+    @extend .flex;
+    font-size: 20px;
+    gap: 15px;
+   color:$text-color;
 }
