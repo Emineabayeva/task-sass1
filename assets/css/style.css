@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,15 +15,69 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+=======
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.header__start .lists ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white; }
+>>>>>>> b0494878878383df6657bf9e7c3d698056d37c99
 
 .header__start {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   border: 1px solid black;
-  height: 40px; }
+  background-color: black; }
 
-.header__end img {
-  margin-left: 300px;
-  margin-top: 30px; }
+.header__start .lists ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white; }
 
+<<<<<<< HEAD
 .section1__left {
   text-align: left;
   display: flex;
@@ -58,19 +113,131 @@
   background-color: #e7ab3c;
   width: 50px;
   height: 50px; }
+=======
+.header_left .user {
+  color: #ff7c5b;
+  padding: 15px;
+  border-radius: 50%; }
 
-.header_input {
+.header__start .lists ul {
+  text-decoration: none;
+  list-style-type: none;
+  gap: 25px; }
+
+.header_left {
+  font-size: 20px;
+  gap: 15px;
+  color: white; }
+
+.flex, .header__start .lists ul, .header_left, .visit h1, .visit p, .visit .buttons, .Tour__Type, .destinations {
   display: flex;
-  gap: 20px;
-  border: 1px solid black;
-  width: 60%;
-  height: 50px;
+  justify-content: center;
+  align-items: center; }
+>>>>>>> b0494878878383df6657bf9e7c3d698056d37c99
+
+.section1 {
+  background-image: url("https://arid-html.vercel.app/main-file/dist/assets/images/hero/h4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 190px; }
+
+.visit h1 {
+  font-size: 70px;
+  color: white; }
+
+.visit p {
+  font-size: 30px;
+  color: white;
+  margin-top: 45px; }
+
+.visit .buttons {
+  padding-top: 70px;
+  gap: 50px; }
+
+.visit .buttons .button button {
+  background-color: transparent;
+  color: #ff7c5b;
+  padding: 18px;
+  width: 200px;
+  border: 1px solid #ff7c5b;
+  font-size: 18px;
+  margin-bottom: 70px; }
+
+.visit .buttons .button__end button {
+  color: white;
+  padding: 19px;
+  background-color: #ff7c5b;
+  border: none;
+  width: 150px;
+  margin-bottom: 70px; }
+
+.section2 {
+  padding: 30px; }
+
+.Tour__Type p {
+  color: #ff7c5b;
+  font-size: 25px; }
+
+.Tour__Type h2 {
+  padding: 20px;
+  font-size: 50px; }
+
+.Tour__Type .cards {
+  display: flex;
+  gap: 28px; }
+  .Tour__Type .cards .card img {
+    width: 400px;
+    height: 250px; }
+
+.Tour__Type .cards .card i {
+  color: #ff7c5b;
+  gap: 16px; }
+
+.Tour__Type .cards .card h3 {
+  margin-bottom: 15px; }
+
+.Tour__Type {
+  flex-direction: column; }
+  .Tour__Type button {
+    margin-top: 30px;
+    background-color: #ff7c5b;
+    padding: 20px;
+    width: 150px;
+    color: white;
+    border: none; }
+
+.section2 {
+  background-color: #FFF6E6; }
+
+.destinations {
+  flex-direction: column; }
+  .destinations .card__map p {
+    color: #ff7c5b; }
+
+.destinations .map__cards {
+  display: flex;
+  gap: 30px; }
+  .destinations .map__cards .card__map img {
+    background-color: white;
+    width: 200px;
+    height: 200px; }
+
+.destinations p {
+  color: #ff7c5b;
+  font-size: 24px;
   margin-top: 30px; }
 
-.header_input input {
-  width: 200px;
-  height: 39px;
+.destinations h2 {
+  font-size: 55px;
+  margin-top: 30px; }
+
+.destinations .view__btn button {
+  background-color: #ff7c5b;
+  padding: 20px;
+  color: white;
   border: none;
+<<<<<<< HEAD
   margin-top: 10px; }
 
 .header2 {
@@ -330,3 +497,15 @@
   display: flex; }
   .instagram__photos .insta__photo img {
     width: 230px; }
+=======
+  width: 120px; }
+
+.book button {
+  text-decoration: none;
+  font-size: 15px;
+  background-color: #ff7c5b;
+  color: white;
+  border: none;
+  padding: 20px;
+  width: 150px; }
+>>>>>>> b0494878878383df6657bf9e7c3d698056d37c99

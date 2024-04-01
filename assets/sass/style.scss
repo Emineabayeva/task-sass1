@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "./layout/header";
 @import "./base/typography";
 @import "../sass/base/reset";
@@ -5,4 +6,31 @@
 @import "../sass/pages/home";
 
 
+=======
+@import"./base/_reset";
+@import"./layout/_header";
+@import "../sass/utils/extends";
+@import "../sass/pages/home.scss";
+
+
+
+
+.book button{
+    text-decoration: none;
+    font-size: 15px;
+    background-color: $main-color;
+    color: $text-color;
+    border: none;
+    padding: 20px;
+    width: 150px;
+ }
+
+
+
+
+
+
+
+
+>>>>>>> b0494878878383df6657bf9e7c3d698056d37c99
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "../base/reset";
 @import "../layout/grid";
 @import "../utils/variables";
@@ -132,4 +133,47 @@
 }
 .menu__end:hover{
     background-color: $main-color;
+=======
+@import "../utils/variables";
+
+
+.header__start .lists ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:$text-color;
+    }
+
+    .header__start{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid black;
+       background-color:$backgroun-color;
+    }
+    .header__start .lists ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color:$text-color;
+     }
+
+
+ .header_left .user{
+    color:$main-color;
+   padding: 15px;
+   border-radius: 50%;
+ 
+ }
+ .header__start .lists ul{
+    @extend .flex;
+     text-decoration: none;
+     list-style-type: none;
+     gap: 25px;
+     
+ }
+ .header_left{
+    @extend .flex;
+    font-size: 20px;
+    gap: 15px;
+   color:$text-color;
+>>>>>>> b0494878878383df6657bf9e7c3d698056d37c99
 }
