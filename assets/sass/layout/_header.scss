@@ -1,3 +1,10 @@
+@import "../base/reset";
+@import "../layout/grid";
+@import "../utils/variables";
+
+
+
+
 .header__start{
     border: 1px solid black;
     height: 40px;
@@ -7,4 +14,122 @@
 .header__end img{
     margin-left:  300px;
     margin-top: 30px;
+}
+
+
+.section1__left{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 80px;
+    margin: 50px;
+    
+}
+.icons{
+    font-size: 16px;
+    color: black;
+    display: flex;
+    gap:20px;
+}
+
+.header__end{
+    display: flex;
+    justify-content:space-around ;
+  align-items: center;
+   font-size: 16px;
+  
+}
+
+.header__end__right{
+    @extend .flex;
+    gap: 15px;
+    font-size: 16px;
+}
+
+.header__end p{
+    gap: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.header_input i{
+    margin-left:200px;
+    background-color: $main-color;
+    width: 50px;
+    height: 50px;
+   @extend .flex;
+}
+.header_input{
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    width: 60%;
+    height: 50px;
+    margin-top: 30px;
+}
+.header_input input{
+    width: 200px;
+    height: 39px;
+    border: none;
+    margin-top: 10px;
+}
+
+
+
+
+.header2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $black-color ;
+}
+
+.header2{
+    margin-top: 30px;
+}
+.header2 ul {
+    display: flex;
+}
+.header2 ul li a{
+    color: white;
+}
+.menu a{
+    display: flex;
+    color: white;
+}
+.header2 ul {
+@extend .flex;
+}
+.header2 ul li{
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: $black-color;
+}
+.menu{
+    background-color: gray;
+    padding: 20px;
+    border: 1px solid gray;
+    width: 47%;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end   ;
+}
+.menu a{
+    color: white;
+}
+.menu__end{
+    border-radius: 10px;
+    background-color: black;
+    width:80px;
+    height: 30px;
+    padding: 20px;
+    @extend .flex;    
+}
+.header2 ul li:hover{
+    background-color: $main-color;
+}
+.menu__end:hover{
+    background-color: $main-color;
 }

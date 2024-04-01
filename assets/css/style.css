@@ -1,3 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+.flex, .header__end__right, .header_input i, .header2 ul, .menu__end, .men__card, .men__card div, .women__card, .women__card div, .kid__card, .kid__card div, .clothings .clothing__left div h3, .clothings .clothing__left div a, .clothing__right .lists ul, .men__clothings .clothing__right div h3, .men__clothings .clothing__right div a, .men__clothings .clothing__left .lstis ul {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.background, .men__card, .women__card, .kid__card {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .header__start {
   border: 1px solid black;
   height: 40px; }
@@ -6,23 +23,29 @@
   margin-left: 300px;
   margin-top: 30px; }
 
-.header__start {
+.section1__left {
+  text-align: left;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 20px; }
-
-.gmail {
-  border-right: 1px; }
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  padding: 80px;
+  margin: 50px; }
 
 .icons {
   font-size: 16px;
   color: black;
+  display: flex;
   gap: 20px; }
 
 .header__end {
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  font-size: 16px; }
+
+.header__end__right {
+  gap: 15px;
   font-size: 16px; }
 
 .header__end p {
@@ -30,14 +53,11 @@
   margin-left: 100px;
   margin-top: 20px; }
 
-.header__end i {
+.header_input i {
   margin-left: 200px;
   background-color: #e7ab3c;
   width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  height: 50px; }
 
 .header_input {
   display: flex;
@@ -52,3 +72,261 @@
   height: 39px;
   border: none;
   margin-top: 10px; }
+
+.header2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #252525; }
+
+.header2 {
+  margin-top: 30px; }
+
+.header2 ul {
+  display: flex; }
+
+.header2 ul li a {
+  color: white; }
+
+.menu a {
+  display: flex;
+  color: white; }
+
+.header2 ul li {
+  padding: 20px;
+  border: 1px solid gray;
+  background-color: #252525; }
+
+.menu {
+  background-color: gray;
+  padding: 20px;
+  border: 1px solid gray;
+  width: 47%;
+  text-align: end;
+  display: flex;
+  justify-content: flex-end; }
+
+.menu a {
+  color: white; }
+
+.menu__end {
+  border-radius: 10px;
+  background-color: black;
+  width: 80px;
+  height: 30px;
+  padding: 20px; }
+
+.header2 ul li:hover {
+  background-color: #e7ab3c; }
+
+.menu__end:hover {
+  background-color: #e7ab3c; }
+
+.header__start {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px; }
+
+.gmail {
+  border-right: 1px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+.section1 {
+  display: flex;
+  background-image: url("https://preview.colorlib.com/theme/fashi/img/hero-1.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.section1__left h3 {
+  color: #e7ab3c;
+  font-size: 20px; }
+
+.section1__left h1 {
+  font-size: 50px; }
+
+.section1__left p {
+  color: #4c4c4c; }
+
+.section1__left button {
+  background-color: #e7ab3c;
+  border: 1px solid black;
+  border: none;
+  width: 100px;
+  height: 40px;
+  color: white; }
+
+.section2 {
+  padding-top: 48px; }
+
+.section__cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.men__card {
+  background-image: url("https://preview.colorlib.com/theme/fashi/img/banner-1.jpg");
+  height: 187px;
+  width: 334px; }
+
+.men__card div {
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  padding: 14px; }
+
+.women__card {
+  background-image: url("https://preview.colorlib.com/theme/fashi/img/banner-2.jpg");
+  height: 187px;
+  width: 334px; }
+
+.women__card div {
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  padding: 14px; }
+
+.kid__card {
+  background-image: url("https://preview.colorlib.com/theme/fashi/img/banner-3.jpg");
+  height: 187px;
+  width: 334px; }
+
+.kid__card div {
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  padding: 14px; }
+
+.section3 {
+  padding-top: 80px; }
+
+.clothings {
+  display: flex; }
+  .clothings .clothing__left {
+    background-image: url("https://preview.colorlib.com/theme/fashi/img/products/women-large.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 300px;
+    height: 620px;
+    padding: 30px; }
+
+.clothings .clothing__left div h3 {
+  color: white;
+  padding: 180px;
+  font-size: 45px; }
+
+.clothings .clothing__left div a {
+  color: black;
+  padding-left: 30px; }
+
+.clothing__right .lists ul {
+  gap: 20px;
+  font-size: 30px;
+  color: #4c4c4c; }
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 100px; }
+
+.cards .card span {
+  font-size: 20px;
+  color: #e7ab3c; }
+
+.section4 {
+  background-image: url("https://preview.colorlib.com/theme/fashi/img/time-bg.jpg.webp");
+  height: 569px;
+  margin-top: 80px; }
+
+.hanbag .hanbag__left {
+  padding: 150px 90px; }
+  .hanbag .hanbag__left h2 {
+    margin-left: 70px;
+    font-size: 40px; }
+
+.hanbag .hanbag__left p {
+  margin-left: 40px;
+  color: #4c4c4c;
+  font-size: 16px; }
+
+.hanbag .hanbag__left h3 {
+  color: #e7ab3c;
+  font-size: 30px;
+  margin-left: 90px; }
+
+.hanbag .time {
+  display: flex;
+  gap: 20px;
+  padding: 15px; }
+  .hanbag .time .days {
+    font-size: 25px;
+    color: #e7ab3c;
+    background-color: white;
+    width: 65px; }
+
+.hanbag .hanbag__left button {
+  background-color: #e7ab3c;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px;
+  border: none;
+  margin-left: 110px; }
+
+.section5 {
+  margin-top: 30px; }
+
+.men__clothings {
+  display: flex; }
+  .men__clothings .clothing__right {
+    background-image: url("https://preview.colorlib.com/theme/fashi/img/products/man-large.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 300px;
+    height: 620px;
+    padding: 30px; }
+
+.men__clothings .clothing__right div h3 {
+  color: white;
+  padding: 180px;
+  font-size: 45px; }
+
+.men__clothings .clothing__right div a {
+  color: black;
+  padding-left: 30px; }
+
+.men__clothings .clothing__left .lstis ul {
+  gap: 20px;
+  font-size: 30px;
+  color: #4c4c4c; }
+
+.clothing__cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 100px; }
+
+.clothing__cards .clothing__card span {
+  font-size: 20px;
+  color: #e7ab3c; }
+
+.section6 {
+  margin-top: 50px; }
+
+.instagram__photos {
+  display: flex; }
+  .instagram__photos .insta__photo img {
+    width: 230px; }
