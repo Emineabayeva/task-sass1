@@ -1,3 +1,4 @@
+@import "../utils/variables";
 
 
 .header__start .lists ul li a{
@@ -11,9 +12,9 @@
         justify-content: space-around;
         align-items: center;
         border: 1px solid black;
-       color:$backgroun-color;
+       background-color:$backgroun-color;
     }
-    header__start .lists ul li a{
+    .header__start .lists ul li a{
         text-decoration: none;
         font-size: 20px;
         color:$text-color;
@@ -27,7 +28,7 @@
  
  }
  .header__start .lists ul{
-    @extend.flex;
+    @extend .flex;
      text-decoration: none;
      list-style-type: none;
      gap: 25px;
